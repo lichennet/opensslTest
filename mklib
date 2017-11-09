@@ -1,0 +1,8 @@
+#!/bin/sh
+# cp myself to openssl-1.0.2l, run . ./build
+#export CC=arm-fsl-linux-gnueabi-gcc
+export CC=arm-none-linux-gnueabi-gcc
+./config no-asm -static --prefix="`pwd`/_install"
+make
+make install
+

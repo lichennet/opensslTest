@@ -1,0 +1,4 @@
+#!/bin/sh
+
+#arm-fsl-linux-gnueabi-gcc opensslTest.c ../usr/local/lib/libcrypto.a -ldl -I../usr/local/include -o opensslTest
+gcc opensslTest.c -o opensslTest -lcrypto
