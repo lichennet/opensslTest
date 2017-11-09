@@ -2,6 +2,8 @@
 #include <openssl/rsa.h>
 #include <openssl/aes.h>
 
+// See blog: 利用OpenSSL库对Socket传输进行安全加密(RSA+AES)
+
 int main()
 {
         // 1. 产生RSA密钥对
